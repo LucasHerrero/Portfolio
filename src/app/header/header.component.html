@@ -1,13 +1,79 @@
 <header class="">
   <nav class="container mx-auto flex items-center justify-between py-4">
-    <div class="px-4">
-      <a href="#" class="text-textStrong hover:text-textSoft text-xl font-bold">Inicio</a>
-      <a href="#" class="text-textStrong hover:text-textSoft  text-xl font-bold ml-4">Sobre Mí</a>
-      <a href="#" class="text-textStrong hover:text-textSoft  text-xl font-bold ml-4">Proyectos</a>
-      <a href="#" class="text-textStrong hover:text-textSoft  text-xl font-bold ml-4">Contacto</a>
+    <div class="px-4 sm:block hidden">
+
+      <a
+        href="#"
+        class="text-textStrong hover:text-textSoft text-sm sm:text-xl font-bold ml-4"
+        >Sobre Mí</a
+      >
+      <a
+        href="#"
+        class="text-textStrong hover:text-textSoft text-sm sm:text-xl font-bold ml-4"
+        >Proyectos</a
+      >
+      <a
+        href="#"
+        class="text-textStrong hover:text-textSoft text-sm sm:text-xl font-bold ml-4"
+        >Contacto</a
+      >
     </div>
-    <a href="assets/CVLUCASHERREROMASI.pdf" download="CVLUCASHERREROMASI.pdf" class="hover:text-textSoft  text-white text-xl font-bold py-2 px-4 mx-4 rounded border border-Strong hover:border-textSoft hover:bg-Strong"
-    >Descarga mi CV</a
-  >
+    <a
+      href="assets/CVLUCASHERREROMASI.pdf"
+      download="CVLUCASHERREROMASI.pdf"
+      class="hidden sm:block hover:text-textSoft text-white sm:text-xl font-bold py-2 px-4 mx-2 sm:mx-4 rounded border border-Strong hover:border-textSoft hover:bg-Strong"
+      >Descarga mi CV</a
+    >
+    <div class="sm:hidden flex justify-end px-3">
+      <button
+      class="flex items-center px-3 py-2 border rounded text-textStrong border-textStrong hover:text-textSoft hover:border-textSoft"
+      (click)="toggleMenu()"
+    >
+      <svg
+        *ngIf="!menuOpen"
+        class="fill-current h-4 w-4"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+      </svg>
+      <svg
+        *ngIf="menuOpen"
+        class="fill-current h-4 w-4"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title>Cerrar</title>
+        <path d="M10 8.586l4.293-4.293 1.414 1.414L11.414 10l4.293 4.293-1.414 1.414L10 11.414l-4.293 4.293-1.414-1.414L8.586 10 4.293 5.707l1.414-1.414L10 8.586z"/>
+      </svg>
+    </button>
+    </div>
   </nav>
-</header>
+  <div
+    *ngIf="menuOpen"
+    class="bg-background2 text-white flex flex-col items-center h-[25%] py-2"
+  >
+    <a
+      href="#"
+      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold "
+      >Sobre Mí</a
+    >
+    <a
+      href="#"
+      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold "
+      >Proyectos</a
+    >
+    <a
+      href="#"
+      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold "
+      >Contacto</a
+    >
+    <a
+      href="assets/CVLUCASHERREROMASI.pdf"
+      download="CVLUCASHERREROMASI.pdf"
+      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold"
+      >Descarga mi CV</a
+    >
+  </div>
+  </header>

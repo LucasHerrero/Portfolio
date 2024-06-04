@@ -1,9 +1,11 @@
 <app-header></app-header>
-<div class="font-sans flex items-center justify-center h-[90vh]">
+<div class="font-sans flex items-center justify-center h-[90vh] sm:h-[90vh]">
   <div class="">
-    <div class="flex items-center justify-center gap-10">
+    <div
+      class="flex flex-col sm:flex-row items-center justify-center gap-10 p-10"
+    >
       <img
-        class="border-4 border-Strong rounded-full w-[15%]"
+        class="border-4 border-Strong rounded-full sm:w-[15%] w-[50%]"
         src="assets/img/fotoperfilrecortada.webp"
         alt="imagen perfil"
       />
@@ -16,10 +18,10 @@
           <span class="text-2xl font-bold text-Strong">&lt;/&gt;</span>
         </p>
         <div
-        class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-teal-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white"
-      >
-        <div class="mt-px">Disponible para trabajar!</div>
-      </div>
+          class="center relative inline-block select-none whitespace-nowrap rounded-lg bg-teal-500 py-2 px-3.5 align-baseline font-sans text-xs font-bold uppercase leading-none text-white"
+        >
+          <div class="mt-px">Disponible para trabajar!</div>
+        </div>
         <p class="text-lg text-secondFont font-semibold">
           Tecnico en desarrollo de aplicaciones web, responsable, proactivo y
           con ganas de aprender y mejorar.
@@ -51,50 +53,100 @@
         </button>
       </a>
     </div>
-
   </div>
-
 </div>
 
-<div class="py-9 font-sans flex flex-col items-center h-[90vh] bg-background2">
-  <h1 class="text-5xl font-extrabold">Sobre mi</h1>
+<div class="py-28 font-sans flex flex-col items-center h-fit bg-background2">
+  <h1 class="sm:text-5xl text-3xl font-bold sm:font-extrabold">Sobre mi</h1>
 
   <div class="flex flex-col items-center">
-    <div class="w-[60%] my-9 items-start">
-      <p class="text-start text-xl">
-        Hola soy <strong>Lucas</strong> ! 👋👋 soy
-        <strong>Tecnico superior en desarrollo de aplicaciones web</strong>. Me
-        apasiona la programacion y la informatica. Tengo experiencia en
-        diferentes lenguajes asi como diferentes frameworks y herramientas. Soy
-        capaz de desarrollarme de buena manera en equipos de trabajo aunque
-        tambien puedo trabajar de igual manera de forma individual. Tengo
-        experiencia en el desarrollo de aplicaciones web, tanto en el
+    <div class="sm:w-[40%] w-[80%] my-9 items-start">
+      <p class="text-center sm:text-2xl py-2 sm:py-4">
+        Hola soy <strong>Lucas</strong> !👋 soy
+        <strong>Tecnico superior en desarrollo de aplicaciones web.</strong>
+      </p>
+      <p class="text-center sm:text-2xl py-2 sm:py-4">
+        Me apasiona la programacion y la informatica. Tengo
+        <strong> experiencia </strong>en diferentes
+        <strong> lenguajes </strong>asi como diferentes frameworks y
+        herramientas.
+      </p>
+
+      <p class="text-center sm:text-2xl py-2 sm:py-4">
+        Soy capaz de desarrollarme de buena manera en equipos de trabajo aunque
+        tambien puedo trabajar de igual manera de forma individual.
+      </p>
+      <p class="text-center sm:text-2xl py-2 sm:py-4">
+        Tengo experiencia en el desarrollo de aplicaciones web, tanto en el
         <strong> frontend </strong>como en el<strong> backend</strong>, asi como
         tambien en el desarrollo de aplicaciones moviles utilizando
-        <strong>Ionic</strong>.<strong>
-          Si tienes alguna duda o consulta no dudes en contactarme!</strong
-        >.
+        <strong>Ionic</strong>.
       </p>
+      <h3 class="text-center sm:text-3xl font-extrabold py-6 sm:py-12">
+        Si tienes alguna duda o consulta <strong>¡CONTACTAME!</strong>
+      </h3>
     </div>
-    <h2 class="text-3xl font-extrabold">Habilidades Tecnicas</h2>
-    <div class="flex py-10">
-      <img class="w-[20%] h-[20%]" src="assets/img/js512.png" alt="jsLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/angular512.png" alt="AngularLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/nodel512.png" alt="nodeJsLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/java512.png" alt="javaLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/spring512.png" alt="springLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/mysql.png" alt="mysqlLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/typescript.png" alt="typescritptLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/html.png" alt="htmlLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/css3512.png" alt="cssLogo" />
-      <img class="w-[20%] h-[20%]" src="assets/img/lua512.png" alt="luaLogo" />
+    <h2 class="text-3xl font-extrabold text-center justify-center">
+      Habilidades Tecnicas
+    </h2>
+    <div
+      class="flex py-10 sm:flex-row flex-col justify-center sm:w-[100%] sm:h-[40%]"
+    >
+      <div class="flex flex-row">
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/js512.png"
+          alt="jsLogo"
+        />
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/angular512.png"
+          alt="AngularLogo"
+        />
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/nodel512.png"
+          alt="nodeJsLogo"
+        />
+      </div>
+      <div class="flex flex-row">
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/java512.png"
+          alt="javaLogo"
+        />
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/spring512.png"
+          alt="springLogo"
+        />
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/mysql.png"
+          alt="mysqlLogo"
+        />
+      </div>
+      <div class="flex flex-row">
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/typescript.png"
+          alt="typescritptLogo"
+        />
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/html.png"
+          alt="htmlLogo"
+        />
+        <img
+          class="sm:w-24 sm:h-24 w-16 h-16 m-4 sm:m-2"
+          src="assets/img/css3512.png"
+          alt="cssLogo"
+        />
+      </div>
     </div>
-      <a href="mailto:lucasherrero2010@hotmail.com">
-      <button
-        class="bg-Strong hover:bg-white hover:text-Strong text-xl font-bold py-2 px-4 rounded-full mx-10"
-      >
-        Contactame!
-      </button>
-    </a>
+  </div>
+  <div class="py-28 font-sans flex flex-col items-center h-fit bg-background">
+    <h1 class="sm:text-5xl text-3xl font-bold sm:font-extrabold">Mis proyectos</h1>
+
   </div>
 </div>
