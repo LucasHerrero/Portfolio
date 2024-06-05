@@ -4,13 +4,13 @@
     "name": "ViewCar",
     "description": "Car configurator for a dealership with user and administrator view. Create your cars from scratch, choosing the best options for you. Add new cars packages and more",
     "images":[ "", "",""],
-    "tecno":["Angular", "NodeJs", "MongoDB"],
+    "tecno":["Angular", "spring boot","MySql","TailwindCss"],
     "url": "",
     "github": ""
   },
   {
     "id":2,
-    "name": "ViewCar",
+    "name": "ThePath",
     "description": "Car configurator for a dealership with user and administrator view. Create your cars from scratch, choosing the best options for you. Add new cars packages and more",
     "images":[ "", "",""],
     "tecno":["Angular", "NodeJs", "MongoDB"],
