@@ -2,20 +2,46 @@
   {
     "id": 1,
     "name": "ViewCar",
-    "description": "Car configurator for a dealership with user and administrator view. Create your cars from scratch, choosing the best options for you. Add new cars packages and more",
-    "images":[ "", "",""],
-    "tecno":["Angular", "spring boot","MySql","TailwindCss"],
-    "url": "",
-    "github": ""
+    "description": "Configurador de coches para concesionario con vista de usuario y administrador. Crea tus coches desde cero, eligiendo las mejores opciones para ti. Agregue paquetes de autos nuevos y más!",
+    "images": "assets/img/Configurador3.webp",
+    "tecno":["assets/img/angular512.webp","assets/img/tailwind.png"],
+    "url": "https://viewcars.netlify.app/",
+    "github": "https://github.com/LucasHerrero/viewcar"
   },
   {
-    "id":2,
-    "name": "ThePath",
-    "description": "Car configurator for a dealership with user and administrator view. Create your cars from scratch, choosing the best options for you. Add new cars packages and more",
-    "images":[ "", "",""],
-    "tecno":["Angular", "NodeJs", "MongoDB"],
-    "url": "",
-    "github": ""
+    "id": 2,
+    "name": "ViewCarApi ",
+    "description": "Api de ViewCar, con sistema CRUD (Crear, Leer, Actualizar y Eliminar) destinada a configurar un vehiculo a gusto del usuario. Creada con Java (SpringBoot, Swagger.Ui, Spring Security y Maven), MySQL. Utilizada en ViewCar",
+    "images": "assets/img/viewcarapi.png",
+    "tecno":["assets/img/java512.png","assets/img/spring512.png","assets/img/mysql.png"],
+    "url": "https://viewcars.netlify.app/",
+    "github": "https://github.com/LucasHerrero/viewcar"
+  },
+  {
+    "id":3,
+    "name": "The Path",
+    "description": "Aplicacion movil, creada en Ionic con angular, con el fin crear rutinas de gimnacio personalizadas asi como hacer un seguimiento de las mismas creacion de rutinas y ejercicios. Consume api llamada 'The Path api'",
+    "images": "assets/img/thepath.png",
+    "tecno":["assets/img/ionic.png", "assets/img/angular512.webp"],
+    "url": "https://github.com/LucasHerrero/The-Path",
+    "github": "https://github.com/LucasHerrero/The-Path"
+  },
+  {
+    "id":4,
+    "name": "The Path API",
+    "description": "Api realizada desde 0 con Sistema CRUD (Crear, Leer, Actualizar y Eliminar) destinada la creacion de rutinas pudiendo elegir a gusto los ejercicios que el usuario quiera realizar. Creada con NodeJs (Express y Sequelize), MySQl  Utilizada en The Path",
+    "images": "assets/img/thepathapi.png",
+    "tecno":["assets/img/nodel512.png", "assets/img/mysql.png"],
+    "url": "https://github.com/LucasHerrero/ThePathApi",
+    "github": "https://github.com/LucasHerrero/ThePathApi"
+  },
+  {
+    "id":5,
+    "name": "AppGifs",
+    "description": "Esta es una aplicación que utiliza la API giphy que busca los 10 gif más comunes. Creado con HTML5 BOOSTRAP y ANGULAR. Utiliza el servicio de giphy para buscar los gif más comunes.",
+    "images": "assets/img/GifsApp.webp",
+    "tecno":["assets/img/html.png", "assets/img/boostrap.png","assets/img/angular512.webp"],
+    "url": "https://main--gifsappfree.netlify.app/",
+    "github": "https://github.com/LucasHerrero/AppGifs"
   }
-
 ]
