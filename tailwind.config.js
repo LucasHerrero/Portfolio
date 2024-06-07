@@ -9,6 +9,7 @@ module.exports = {
         font: "#ffffff",
         secondFont: "#E4E4F2",
         Strong: "#6F4BF2",
+        soft: "#997ff9",
       },
       fontFamily: {
         sans: [

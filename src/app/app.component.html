@@ -28,18 +28,10 @@
         </p>
         <div class="flex space-x-2">
           <a class="" href="https://github.com/LucasHerrero" target="_blank">
-            <img
-              src="assets/img/github-50.webp"
-              alt="GitHub"
-              class="h-8 w-8"
-            />
+            <img src="assets/img/github-50.webp" alt="GitHub" class="h-8 w-8" />
           </a>
           <a href="https://linkedin.com/in/lucasherreromasi" target="_blank">
-            <img
-              src="assets/img/linkedin.png"
-              alt="linkedin"
-              class="h-8 w-8"
-            />
+            <img src="assets/img/linkedin.png" alt="linkedin" class="h-8 w-8" />
           </a>
         </div>
       </div>
@@ -61,7 +53,7 @@
 
   <div class="flex flex-col items-center">
     <div class="lg:w-[40%] w-[80%] my-9">
-      <p class=" md:text-xl py-2 lg:py-4">
+      <p class="md:text-xl py-2 lg:py-4">
         Hola soy <strong>Lucas</strong> !👋 soy
         <strong>Tecnico superior en desarrollo de aplicaciones web.</strong>
       </p>
@@ -76,7 +68,7 @@
         Soy capaz de desarrollarme de buena manera en equipos de trabajo aunque
         tambien puedo trabajar de igual manera de forma individual.
       </p>
-      <p class=" md:text-xl py-2 lg:py-4">
+      <p class="md:text-xl py-2 lg:py-4">
         Tengo experiencia en el desarrollo de aplicaciones web, tanto en el
         <strong> frontend </strong>como en el<strong> backend</strong>, asi como
         tambien en el desarrollo de aplicaciones moviles utilizando
@@ -148,13 +140,15 @@
   <div
     class="py-28 font-sans flex flex-col items-center h-100% w-full bg-background"
   >
-    <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold ">
+    <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold">
       Mis proyectos
     </h1>
 
     <div class="flex flex-wrap justify-center md:w-[90%] md:m-20">
       <div *ngFor="let project of datos" class="w-[80%] md:w-[35%] m-8">
-        <div class="flex flex-col bg-background2 p-2 rounded-lg shadow min-h-[100%]">
+        <div
+          class="flex flex-col bg-background2 p-2 rounded-lg shadow min-h-[100%]"
+        >
           <img
             class="object-cover max-h-80 h-full rounded-t-lg"
             [src]="project.images"
@@ -182,7 +176,7 @@
               />
             </div>
           </div>
-          <div class="flex gap-5 justify-end items-end py-5 lg:py-0 ">
+          <div class="flex gap-5 justify-end items-end py-5 lg:py-0">
             <a class="" href="https://github.com/LucasHerrero" target="_blank">
               <img
                 src="assets/img/github-50.webp"
@@ -200,6 +194,270 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div
+    class="lg:flex-row lg:gap-40 lg:justify-center h-100% bg-background2 lg:w-[50%] w-[80%] flex flex-col"
+  >
+    <div class="font-sans flex flex-col m-4">
+      <h1
+        class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-14 text-center"
+      >
+        Educacion
+      </h1>
+
+      <ol class="relative border-s border-gray-200">
+        <li class="mb-10 ms-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-Strong rounded-full -start-3 ring-8 ring-white"
+          >
+          </span>
+          <h3
+            class="flex mx-2 items-center mb-1 text-lg font-semibold text-white dark:text-white"
+          >
+            Comienzo
+          </h3>
+        </li>
+
+        <li class="mb-10 ms-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white"
+          >
+            <svg
+              class="w-2.5 h-2.5 text-Strong dark:text-blue-300"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+              />
+            </svg>
+          </span>
+          <h3
+            class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white"
+          >
+            St. Andrew's Scots School
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-soft dark:text-gray-500"
+            >Terminado en 2022</time
+          >
+          <p class="mb-4 text-base font-semibold text-white dark:text-gray-400">
+            Bachillerato Bilingue en informatica
+          </p>
+          <p class="mb-4 text-base font-normal text-white dark:text-gray-400">
+            - Ingles
+          </p>
+        </li>
+        <li class="mb-10 ms-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white"
+          >
+            <svg
+              class="w-2.5 h-2.5 text-Strong dark:text-blue-300"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+              />
+            </svg>
+          </span>
+          <h3
+            class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white"
+          >
+            Cesur
+            <span
+              class="bg-Strong text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3"
+              >Latest</span
+            >
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-soft dark:text-gray-500"
+            >Terminado en 2024</time
+          >
+          <p class="mb-4 text-base font-semibold text-white dark:text-gray-400">
+            Grado superior en desarrollo de aplicaciones web
+          </p>
+          <p class="text-base font-normal text-white dark:text-gray-400">
+            -Despliegue, mantenimiento y desarrollo de aplicaciones web
+          </p>
+          <p class="my-4">Lenguajes y herramientas:</p>
+          <ul class="">
+            <li>- Java</li>
+            <li>- SpringFramework</li>
+            <li>- NodeJs</li>
+            <li>- Angular</li>
+            <li>- Typescript</li>
+            <li>- Javacript</li>
+            <li>- Php</li>
+            <li>- MySQL</li>
+            <li>- MongoDB</li>
+            <li>- Html5</li>
+            <li>- Css3</li>
+            <li>- Boostrap</li>
+            <li>- Jira</li>
+            <li>- Git</li>
+            <li>- Github</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+    <div class="font-sans flex flex-col m-4">
+      <h1
+        class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-14 text-center"
+      >
+        Experiencia
+      </h1>
+
+      <ol class="relative border-s border-gray-200 dark:border-gray-700">
+        <li class="mb-10 ms-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-Strong rounded-full -start-3 ring-8 ring-white"
+          >
+          </span>
+          <h3
+            class="flex mx-2 items-center mb-1 text-lg font-semibold text-white dark:text-white"
+          >
+            Comienzo
+          </h3>
+        </li>
+
+        <li class="mb-10 ms-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white"
+          >
+            <svg
+              class="w-2.5 h-2.5 text-Strong dark:text-blue-300"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+              />
+            </svg>
+          </span>
+          <h3
+            class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white"
+          >
+            Comunidad Boom
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-soft dark:text-gray-500"
+            >Agosto 2020 - Julio 2022</time
+          >
+          <p class="mb-4 text-base font-semibold text-white dark:text-gray-400">
+            Desarrollador Frontend Javascript
+          </p>
+
+          <ul class="">
+            <li>- Javascript, Lua, Apache, FTP, Html5, Css3, SQL</li>
+            <li>- Tools: Jira, Git con Github</li>
+            <li>- Api REST.</li>
+            <li>- Videojuego para FiveM.</li>
+          </ul>
+        </li>
+        <li class="mb-10 ms-6">
+          <span
+            class="absolute flex items-center justify-center w-6 h-6 bg-white rounded-full -start-3 ring-8 ring-white"
+          >
+            <svg
+              class="w-2.5 h-2.5 text-Strong dark:text-blue-300"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+            >
+              <path
+                d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+              />
+            </svg>
+          </span>
+          <h3
+            class="flex items-center mb-1 text-lg font-semibold text-white dark:text-white"
+          >
+            Viewnext
+            <span
+              class="bg-Strong text-white text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3"
+              >Latest</span
+            >
+          </h3>
+          <time
+            class="block mb-2 text-sm font-normal leading-none text-soft dark:text-gray-500"
+            >Marzo 2023 - Junio 2024</time
+          >
+          <p class="mb-4 text-base font-semibold text-white dark:text-gray-400">
+            Full Stack Web Developer - Practicas
+          </p>
+          <ul class="">
+            <li>- Scrum (Metodología Agile).</li>
+            <li>- Angular, Java, Spring Boot, Taliwind, SQL, Nodejs</li>
+            <li>- Proyecto de un concesionario y configurador de coches.</li>
+            <li>- Proyecto desde 0.</li>
+            <li>- Tools: Jira, Git con Github</li>
+            <li>- Api REST.</li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+<!-- TODO: ME QUEDA HACER ESTO BONITO Y RESPONSIVE. -->
+
+  <div class="w-[80%] border border-b-gray-500 my-24"></div>
+  <div class="flex md:w-[90%] md:m-20">
+    <div class="lg:w-[30%]">
+      <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-4">
+        Certificaciones
+      </h1>
+
+      <ul class="font-semibold">
+        <li>- Curso de angular de cero a experto</li>
+
+        <a
+          href="https://www.udemy.com/certificate/UC-472ec2b1-dae2-4e8d-af58-6a1322639e96/"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 my-4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        >
+          Certificado Angular
+        </a>
+
+        <li>- Curso de GIT + GitHub: Desde cero</li>
+        <a
+          href="https://viewnext.udemy.com/certificate/UC-d786c334-80b5-47c9-9c50-c9b8f3c8b5e2/"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 my-4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        >
+          Certificado Git
+        </a>
+      </ul>
+    </div>
+    <div class="lg:w-[40%]">
+      <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-4">
+        Idiomas
+      </h1>
+      <ul class="font-semibold">
+        <li class="p-2">- Ingles: Competencia bilingüe.</li>
+        <li class="p-2">- Español: Nativo</li>
+      </ul>
+    </div>
+    <div class="lg:w-[40%]">
+      <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-4">
+        Soft skills
+      </h1>
+      <ul class="font-semibold">
+        <li class="p-2">- Trabajo en equipo</li>
+        <li class="p-2">- Proactivo</li>
+        <li class="p-2">- Responsable</li>
+        <li class="p-2">- Habilidades de comunicacion</li>
+      </ul>
     </div>
   </div>
 </div>
