@@ -23,7 +23,7 @@
     "description": "Aplicacion movil, creada en Ionic con angular, con el fin crear rutinas de gimnacio personalizadas asi como hacer un seguimiento de las mismas creacion de rutinas y ejercicios. Consume api llamada 'The Path api'",
     "images": "assets/img/thepath.png",
     "tecno":["assets/img/ionic.png", "assets/img/angular512.webp"],
-    "url": "https://github.com/LucasHerrero/The-Path",
+    "url": "https://thepathapp.netlify.app/",
     "github": "https://github.com/LucasHerrero/The-Path"
   },
   {

@@ -1,5 +1,7 @@
 <app-header></app-header>
-<div class="font-sans flex items-center justify-center h-[90vh] lg:h-[90vh]">
+<div
+  class="font-sans bg-background flex items-center justify-center h-[90vh] lg:h-[90vh]"
+>
   <div class="">
     <div
       class="flex flex-col lg:flex-row items-center justify-center gap-10 p-10"
@@ -48,7 +50,10 @@
   </div>
 </div>
 
-<div class="py-24 font-sans flex flex-col items-center h-fit bg-background2">
+<div
+  id="sobremi"
+  class="py-24 font-sans flex flex-col items-center h-fit bg-background2"
+>
   <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold">Sobre mi</h1>
 
   <div class="flex flex-col items-center">
@@ -138,6 +143,7 @@
     </div>
   </div>
   <div
+    id="proyectos"
     class="py-28 font-sans flex flex-col items-center h-100% w-full bg-background"
   >
     <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold">
@@ -198,6 +204,7 @@
   </div>
 
   <div
+    id="educacion"
     class="lg:flex-row lg:gap-40 lg:justify-center h-100% bg-background2 lg:w-[50%] w-[80%] flex flex-col"
   >
     <div class="font-sans flex flex-col m-4">
@@ -409,12 +416,23 @@
     </div>
   </div>
 
-<!-- TODO: ME QUEDA HACER ESTO BONITO Y RESPONSIVE. -->
 
-  <div class="w-[80%] border border-b-gray-500 my-24"></div>
-  <div class="flex md:w-[90%] md:m-20">
-    <div class="lg:w-[30%]">
-      <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-4">
+  <div
+    id="certificaciones"
+    class="w-[80%] border border-b-gray-500 my-20"
+  ></div>
+
+  <div class="flex flex-col w-[80%]">
+    <h1
+    class="lg:text-3xl text-2xl font-bold lg:font-extrabold pb-14 text-center"
+  >
+    Otras habilidades
+  </h1>
+
+    <div class="lg:w-[30%] mb-10">
+      <h1
+        class="lg:text-3xl text-Strong text-2xl font-bold lg:font-extrabold py-4"
+      >
         Certificaciones
       </h1>
 
@@ -424,32 +442,50 @@
         <a
           href="https://www.udemy.com/certificate/UC-472ec2b1-dae2-4e8d-af58-6a1322639e96/"
           target="_blank"
-          class="inline-flex items-center px-4 py-2 my-4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+          class="p-4 inline-flex items-center px-4 py-2 my-4 text-sm font-semibold text-white bg-Strong border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
         >
           Certificado Angular
         </a>
+
 
         <li>- Curso de GIT + GitHub: Desde cero</li>
         <a
           href="https://viewnext.udemy.com/certificate/UC-d786c334-80b5-47c9-9c50-c9b8f3c8b5e2/"
           target="_blank"
-          class="inline-flex items-center px-4 py-2 my-4 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+          class="inline-flex items-center px-4 py-2 my-4 text-sm font-semibold text-white bg-Strong border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
         >
           Certificado Git
         </a>
+
+        <li>- SQL Curso de Bases de Datos de 0 a Avanzado</li>
+        <a
+          href="https://viewnext.udemy.com/certificate/UC-726cecf5-3b84-4a28-a9ee-c98f18bf9f7e/"
+          target="_blank"
+          class="inline-flex items-center px-4 py-2 my-4 text-sm font-semibold text-white bg-Strong border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+        >
+          Certificado SQL
+        </a>
       </ul>
     </div>
-    <div class="lg:w-[40%]">
-      <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-4">
+
+    <div class="lg:w-[40%] mb-10">
+      <h1
+        class="lg:text-3xl text-2xl font-bold lg:font-extrabold text-Strong py-4"
+      >
         Idiomas
       </h1>
       <ul class="font-semibold">
-        <li class="p-2">- Ingles: Competencia bilingüe.</li>
-        <li class="p-2">- Español: Nativo</li>
+        <li class="p-2">
+          <span class="font-normal">- Ingles:</span> Competencia bilingüe.
+        </li>
+        <li class="p-2"><span class="font-normal">- Español:</span> Nativo</li>
       </ul>
     </div>
-    <div class="lg:w-[40%]">
-      <h1 class="lg:text-3xl text-2xl font-bold lg:font-extrabold py-4">
+
+    <div class="lg:w-[40%] ">
+      <h1
+        class="lg:text-3xl text-2xl font-bold lg:font-extrabold text-Strong py-4"
+      >
         Soft skills
       </h1>
       <ul class="font-semibold">

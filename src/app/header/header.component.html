@@ -1,30 +1,34 @@
-<header class="">
+<header>
   <nav class="container mx-auto flex items-center justify-between py-4">
-    <div class="px-4 sm:block hidden">
-
+    <div class="px-4 lg:block hidden">
       <a
-        href="#"
-        class="text-textStrong hover:text-secondFont text-sm sm:text-xl font-bold ml-4"
-        >Sobre Mí</a
+        href="#sobremi"
+        class="text-textStrong hover:text-secondFont text-sm lg:text-xl font-bold ml-6"
+        >Sobre mí</a
       >
       <a
-        href="#"
-        class="text-textStrong hover:text-secondFont text-sm sm:text-xl font-bold ml-4"
+        href="#proyectos"
+        class="text-textStrong hover:text-secondFont text-sm lg:text-xl font-bold ml-6"
         >Proyectos</a
       >
       <a
-        href="#"
-        class="text-textStrong hover:text-secondFont text-sm sm:text-xl font-bold ml-4"
-        >Contacto</a
+        href="#educacion"
+        class="text-textStrong hover:text-secondFont text-sm lg:text-xl font-bold ml-6"
+        >Educacion</a
       >
+      <a
+      href="mailto:lucasherrero2010@hotmail.com"
+      class="p-2 text-textStrong hover:text-textSoft text-lg lg:text-xl font-bold ml-6"
+      >Contactame</a
+    >
     </div>
     <a
       href="assets/CVLUCASHERREROMASI.pdf"
       download="CVLUCASHERREROMASI.pdf"
-      class="hidden sm:block hover:text-textSoft text-white sm:text-xl font-bold py-2 px-4 mx-2 sm:mx-4 rounded border border-Strong hover:border-textSoft hover:bg-Strong"
+      class="hidden lg:block hover:text-textSoft text-white lg:text-xl font-bold py-2 px-4 mx-2 lg:mx-4 rounded border border-Strong hover:border-textSoft hover:bg-Strong"
       >Descarga mi CV</a
     >
-    <div class="sm:hidden flex justify-end px-3">
+    <div class="lg:hidden flex justify-end px-3">
       <button
       class="flex items-center px-3 py-2 border rounded text-textStrong border-textStrong hover:text-textSoft hover:border-textSoft"
       (click)="toggleMenu()"
@@ -49,30 +53,38 @@
       </svg>
     </button>
     </div>
+    <div class="lg:hidden flex justify-end px-3">
+    <h1 class="font-bold text-2xl">Lucas Herrero Masi ✨</h1>
+    </div>
   </nav>
   <div
     *ngIf="menuOpen"
     class="bg-background2 text-white flex flex-col items-center h-[25%] py-2"
   >
     <a
-      href="#"
-      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold "
-      >Sobre Mí</a
+      href="#sobremi"
+      class="p-2 text-textStrong hover:text-textSoft text-lg lg:text-xl font-bold "
+      >Sobre mí</a
     >
     <a
-      href="#"
-      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold "
+      href="#proyectos"
+      class="p-2 text-textStrong hover:text-textSoft text-lg lg:text-xl font-bold "
       >Proyectos</a
     >
     <a
-      href="#"
-      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold "
-      >Contacto</a
+      href="#educacion"
+      class="p-2 text-textStrong hover:text-textSoft text-lg lg:text-xl font-bold "
+      >Educacion</a
     >
+    <a
+    href="mailto:lucasherrero2010@hotmail.com"
+    class="p-2 text-textStrong hover:text-textSoft text-lg lg:text-xl font-bold"
+    >Contactame</a
+  >
     <a
       href="assets/CVLUCASHERREROMASI.pdf"
       download="CVLUCASHERREROMASI.pdf"
-      class="p-2 text-textStrong hover:text-textSoft text-lg sm:text-xl font-bold"
+      class="p-2 text-textStrong hover:text-textSoft text-lg lg:text-xl font-bold"
       >Descarga mi CV</a
     >
   </div>
