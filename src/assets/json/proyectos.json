@@ -41,7 +41,7 @@
     "description": "Esta es una aplicación que utiliza la API giphy que busca los 10 gif más comunes. Creado con HTML5 BOOSTRAP y ANGULAR. Utiliza el servicio de giphy para buscar los gif más comunes.",
     "images": "assets/img/GifsApp.webp",
     "tecno":["assets/img/html.png", "assets/img/boostrap.png","assets/img/angular512.webp"],
-    "url": "https://main--gifsappfree.netlify.app/",
+    "url": "https://gifsappdemo.netlify.app",
     "github": "https://github.com/LucasHerrero/AppGifs"
   }
 ]
