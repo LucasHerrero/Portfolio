@@ -183,14 +183,14 @@
             </div>
           </div>
           <div class="flex gap-5 justify-end items-end py-5 lg:py-0">
-            <a class="" href="https://github.com/LucasHerrero" target="_blank">
+            <a class="" [href]="project.github" target="_blank">
               <img
                 src="assets/img/github-50.webp"
                 alt="GitHub"
                 class="lg:h-auto h-8 hover:bg-white rounded-lg"
               />
             </a>
-            <a class="" href="" target="_blank">
+            <a class="" [href]="project.url" target="_blank">
               <img
                 src="assets/img/url.webp"
                 alt="url"
@@ -422,7 +422,7 @@
     class="w-[80%] border border-b-gray-500 my-20"
   ></div>
 
-  <div class="flex flex-col w-[80%]">
+  <div class="flex flex-col w-[80%] lg:w-[70%]">
     <h1
     class="lg:text-3xl text-2xl font-bold lg:font-extrabold pb-14 text-center"
   >
